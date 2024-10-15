@@ -8,6 +8,7 @@ This repository contains my personal dotfiles and configuration files for variou
 - **nvim** - Neovim editor settings (*soon*)
 - **winfetch.ps1** - Winfetch cmd info
 - **gitconfig** - Git settings and aliases (*soon*)
+- **temninal settings** - config file for custom terminal
 
 ## Usage
 
