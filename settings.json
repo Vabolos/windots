@@ -1,0 +1,144 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        }
+    ],
+    "alwaysOnTop": false,
+    "autoHideWindow": false,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Nord",
+            "font": 
+            {
+                "face": "FiraCode Nerd Font"
+            },
+            "opacity": 20,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#282A36",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#81A1C1",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "name": "Nord",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#434C5E",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
