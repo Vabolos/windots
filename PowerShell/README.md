@@ -35,10 +35,17 @@ This repository contains my PowerShell configuration files and setup. To replica
   ```powershell
   Install-Module -Name Terminal-Icons -Repository PSGallery
   ```
-
+  
 ### 8. **tree (Optional)**
 - **Description:** `tree` is a command-line utility that displays the directory structure in a tree-like format.
 - **Installation:** [tree for Windows](https://gnuwin32.sourceforge.net/packages/tree.htm)
+
+### 9. **PSReadLine**
+- **Description:** PSReadLine enhances the command-line editing experience in PowerShell by adding features like syntax highlighting, autocompletion, and command history.
+- **Installation:** PSReadLine comes pre-installed with PowerShell 5.1 and above. You can update it by running the following command:
+  ```powershell
+  Install-Module PSReadLine -Force -SkipPublisherCheck
+  ```
 
 ## PowerShell Profile
 
