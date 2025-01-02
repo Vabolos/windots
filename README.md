@@ -61,3 +61,7 @@ To use any of these configurations, simply clone the repository and symlink the 
 git clone https://github.com/yourusername/dotfiles.git
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 ```
+
+### Rest
+
+The Discord theme is custom CSS, but is based on one of the themes. Should you want this theme (but not the custom one) you can download it [here](https://github.com/refact0r/system24)
