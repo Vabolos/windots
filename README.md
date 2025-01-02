@@ -2,9 +2,9 @@
 
 This repository contains my personal dotfiles and configuration files for various tools and environments. Feel free to explore, use, or adapt them for your own setup.
 
-```md
-📦 
-├─ Discord
+```
+📦 .dotfiles
+Discord
 │  └─ system24 - Everforest Dark Medium.css
 ├─ LICENSE
 ├─ PowerShell
@@ -27,22 +27,25 @@ This repository contains my personal dotfiles and configuration files for variou
 │  └─ Theme
 │     ├─ color.ini
 │     └─ user.css
-├─ Winfetch
-│  ├─ Japanese Theme
-│  │  ├─ config.ps1
-│  │  └─ winfetch.ps1
-│  ├─ Nitch Theme
-│  │  ├─ config.ps1
-│  │  └─ winfetch.ps1
-│  ├─ Russian Theme
-│  │  ├─ config.ps1
-│  │  └─ winfetch.ps1
-│  ├─ config.ps1
-│  └─ winfetch.ps1
-└─ Winhawk
-   ├─ README.md
-   ├─ StartmenuStyler.json
-   └─ TaskbarStyler.json
+├─ Windows
+│  ├─ Theme
+│  │  └─ Everforest Theme for Windows 11 by VIN STAR (Scanned).zip
+│  └─ Winhawk
+│     ├─ README.md
+│     ├─ StartmenuStyler.json
+│     └─ TaskbarStyler.json
+└─ Winfetch
+   ├─ Japanese Theme
+   │  ├─ config.ps1
+   │  └─ winfetch.ps1
+   ├─ Nitch Theme
+   │  ├─ config.ps1
+   │  └─ winfetch.ps1
+   ├─ Russian Theme
+   │  ├─ config.ps1
+   │  └─ winfetch.ps1
+   ├─ config.ps1
+   └─ winfetch.ps1
 ```
 
 ## Contents
