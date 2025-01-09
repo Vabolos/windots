@@ -1,3 +1,0 @@
-# Kando app configuration
-
-More coming soon...
