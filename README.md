@@ -31,7 +31,7 @@
 Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
 
 > [!NOTE]
-> All configurations related to WSL2 (Linux) are maintained in this repository -> [dotfiles](https://github.com/ashish0kumar/dotfiles)
+> All configurations related to WSL2 (Linux) are maintained in this repository -> [dotfiles](https://github.com/vabolos/dotfiles)
 
 ## ✨ Features
 
