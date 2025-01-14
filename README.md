@@ -74,38 +74,38 @@ Here is all the information about my setup:
 
 | 📚 Entry                 | ✨ App                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Shell**                | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
-| **Terminal Emulator**    | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json)                                                                                                                                                                                                        |
-| **Terminal Multiplexer** | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf)                                                                                                                                                                                                                               |
-| **Shell Prompt**         | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/ohmyposh/zen.toml)                                                                                                                                                                                                                                     |
-| **Text Editor**          | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim)                                                                                                                                                                                                                                                 |
+| **Shell**                | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/vabolos/dotfiles/blob/master/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/vabolos/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
+| **Terminal Emulator**    | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/vabolos/windots/blob/main/.config/terminal/settings.json)                                                                                                                                                                                                        |
+| **Terminal Multiplexer** | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/vabolos/dotfiles/blob/master/.config/tmux/tmux.conf)                                                                                                                                                                                                                               |
+| **Shell Prompt**         | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/ohmyposh/zen.toml)                                                                                                                                                                                                                                     |
+| **Text Editor**          | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/vabolos/dotfiles/tree/master/.config/nvim)                                                                                                                                                                                                                                                 |
 | **CD Replacement**       | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide)                                                                                                                                                                                                                                                                                                      |
 | **LS Replacement**       | [eza](https://github.com/eza-community/eza)                                                                                                                                                                                                                                                                                                             |
-| **Cat Replacement**      | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/bat)                                                                                                                                                                                                                                            |
-| **File Manager**         | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/yazi)                                                                                                                                                                                                                                           |
+| **Cat Replacement**      | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/vabolos/dotfiles/tree/master/.config/bat)                                                                                                                                                                                                                                            |
+| **File Manager**         | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/vabolos/dotfiles/tree/master/.config/yazi)                                                                                                                                                                                                                                           |
 | **Fuzzy File Finder**    | 💖 [fzf](https://github.com/junegunn/fzf)                                                                                                                                                                                                                                                                                                               |
 | **Git TUI**              | [lazygit](https://github.com/jesseduffield/lazygit)                                                                                                                                                                                                                                                                                                     |
-| **System Monitor**       | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf)                                                                                                                                                                                                                          |
-| **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc)                                                                                                                                                                                                       |
+| **System Monitor**       | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/vabolos/dotfiles/blob/master/.config/btop/btop.conf)                                                                                                                                                                                                                          |
+| **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/vabolos/dotfiles/blob/master/.config/fastfetch/config.jsonc)                                                                                                                                                                                                       |
 
 #### 🖱️ GUI Apps
 
 | 📚 Entry                 | ✨ App                                                                                                                                    |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/vabolos/.dotfiles/blob/main/.config/vscode/settings.json)                |
-| **App Launcher**         | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/flowlauncher/Settings.json) |
+| **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/vscode/settings.json)                |
+| **App Launcher**         | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/flowlauncher/Settings.json) |
 | **Music Player**         | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/))                                                |
 | **Web Browser**          | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) 🏡 [startpage](https://github.com/vabolos/catppuccin-startpage)                      |
 | **Note Taking App**      | 💖 [Obsidian](https://obsidian.md/)                                                                                                       |
 | **File Manager**         | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)                                                               |
-| **Office Apps**          | [LibreOffice](https://www.libreoffice.org/)                                                                                               |
+| **Office Apps**          | [Office 365](https://www.microsoft.com/en-us/microsoft-365/download-office)                                                               |
 
 #### 🔍 Other
 
 | 📚 Entry             | ✨ App                                                        |
 | -------------------- | ------------------------------------------------------------- |
 | **Colorscheme**      | 💖 [Catppuccin Mocha](catppuccin.com)                         |
-| **Font**             | [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
+| **Font**             | [FiraCode Nerd Font](https://www.jetbrains.com/lp/mono/) |
 | **Dotfiles Manager** | 💖 [GNU Stow](https://www.gnu.org/software/stow/)             |
 
 <h2 id="setup">🔧 Setup</h2>
@@ -116,7 +116,7 @@ Here is all the information about my setup:
 > This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `.dotfiles/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
+- Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
   - `C:\Users\<Username>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
@@ -128,7 +128,7 @@ Here is all the information about my setup:
     - [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
   - [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) (If you want a transparent/glass effect)
 
-- Copy `.dotfiles/.config/vscode/settings.json` to your VSCode user configuration directory:
+- Copy `windots/.config/vscode/settings.json` to your VSCode user configuration directory:
   - On Windows: `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
   - On WSL2: `~/.vscode-server/data/Machine/settings.json`
 - Restart VSCode to load the updated settings.
@@ -136,13 +136,13 @@ Here is all the information about my setup:
 ### 🦅 Windhawk
 
 - Install [Windhawk](https://windhawk.net/).
-- Copy the Windhawk configuration files from `.dotiles/.config/Windows/Catppuccin-or-Everforest/Windhawk`
+- Copy the Windhawk configuration files from `windots/.config/Windows/Catppuccin-or-Everforest/Windhawk`
 - Apply the tweaks from the Windhawk UI.
 
 ### 🚀 Flow Launcher
 
 - Install [Flow Launcher](https://www.flowlauncher.com/)
-- Copy `.dotfiles/.config/flowlauncher/Settings.json` to the Flow Launcher config directory:
+- Copy `windots/.config/flowlauncher/Settings.json` to the Flow Launcher config directory:
   - `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
 
@@ -151,13 +151,13 @@ Here is all the information about my setup:
 ### 🖥️ Windows Terminal
 
 - Install [Windows Terminal](https://github.com/microsoft/terminal)
-- Copy `.dotfiles/.config/Terminal/settings.json` to the terminal configuration directory:
+- Copy `windots/.config/Terminal/settings.json` to the terminal configuration directory:
   - `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
 ### 🐚 PowerShell
 
-- Copy `.dotfiles/.config/Terminal/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
+- Copy `windots/.config/Terminal/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
   - `C:\Users\<Username>\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1`
 - Restart PowerShell to apply the changes.
 
@@ -169,7 +169,7 @@ Here is all the information about my setup:
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-- Copy `.dotfiles/.config/ohmyposh/zen.toml` to your Oh My Posh themes directory:
+- Copy `windots/.config/ohmyposh/zen.toml` to your Oh My Posh themes directory:
 
   - `C:\Users\<Username>\.config\ohmyposh\zen.toml`
 
@@ -188,7 +188,7 @@ oh-my-posh init pwsh --config 'C:\Users\<Username>\.config\ohmyposh\zen.toml' | 
 winget install fastfetch
 ```
 
-- Copy `.dotfiles/.config/System fetch/Fastfetch/config.conf` to your Fastfetch configuration directory:
+- Copy `windots/.config/System fetch/Fastfetch/config.conf` to your Fastfetch configuration directory:
 
   - `C:\Users\<Username>\.config\fastfetch\config.conf`
 
@@ -219,7 +219,7 @@ You can always change these in your Glaze config.
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
 > [!Note]
-> If you want to check the wallpapers, they are available [right here](https://github.com/vabolos/.dotfiles/tree/main/walls#readme).
+> If you want to check the wallpapers, they are available [right here](https://github.com/vabolos/windots/tree/main/walls#readme).
 
 | **TUI File Manager, ls replacement and System Fetch** |
 | ----------------------------------------------------- |
@@ -293,12 +293,13 @@ I wanna point out some resources that helped me the most with the setup:
 - [pivoshenko](https://github.com/pivoshenko/catppuccin-startpage) for the aesthetic and clean browser startpage 🌐
 - [orxngc](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful catppuccinified wallpapers 🖼️
 - [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
+- [ashish0kumar](https://github.com/ashish0kumar/) for the repo inspiration 🌟
 
 ## ✍️ Contributing
 
 Part of what makes the open source community special are the contributions. Any contributions will be **highly appreciated!**
 
-If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/vabolos/.dotfiles/issues) or [submit a PR](https://github.com/vabolos/.dotfiles/pulls)
+If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/vabolos/windots/issues) or [submit a PR](https://github.com/vabolos/windots/pulls)
 
 <br><br>
 
