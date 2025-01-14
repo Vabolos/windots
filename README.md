@@ -59,7 +59,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 - **App Launcher:** [flow launcher](https://www.flowlauncher.com/) 🚀
 - **File Manager:** [file explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
 - **Browser:** [firefox](https://www.mozilla.org/en-US/firefox/) 🌐
-- **Colorscheme:** [catppuccin mocha](https://catppuccin.com/) 🐈🍵
+- **Colorscheme:** [catppuccin macchiato](https://catppuccin.com/) 🐈🍵
 
 <hr/>
 
