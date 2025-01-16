@@ -12,7 +12,7 @@
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "workbench.colorCustomizations": {},
-"explorer.confirmDragAndDrop": false,
+  "explorer.confirmDragAndDrop": false,
   "editor.linkedEditing": true,
   "liveServer.settings.donotVerifyTags": true,
   "git.ignoreMissingGitWarning": true,
@@ -38,7 +38,6 @@
     "titleBarStyle": "hidden"
   },
   "window.titleBarStyle": "native",
-  "window.customTitleBarVisibility": "never",
   "apc.font.family": "JetBrainsMono Nerd Font",
   "apc.monospace.font.family": "JetBrainsMono Nerd Font",
   "workbench.sideBar.location": "right",
@@ -47,6 +46,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.list.smoothScrolling": true,
+  "workbench.activityBar.location": "top",
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "workbench.editor.empty.hint": "hidden",
@@ -54,5 +54,6 @@
     "wsl.localhost",
     "wsl$"
   ],
-  "glassit.alpha": 220
+  "security.workspace.trust.untrustedFiles": "open",
+  "remoteHub.commitDirectlyWarning": "off"
 }
