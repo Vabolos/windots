@@ -8,10 +8,9 @@ Set-Alias g git
 Set-Alias vim nvim
 
 # Auto-start
-cls
 ## choose between winfetch and fastfetch (uncomment one!)
-#winfetch
-fastfetch
+#cls;winfetch
+cls;fastfetch
 
 # Prompt
 # choose between clean-detailed and zen (uncomment one!)
