@@ -281,7 +281,7 @@ Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspir
 
 I wanna point out some resources that helped me the most with the setup:
 
-- [Matt-FTW's README](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the README 🙏
+- [Ashish0kumar's README](https://github.com/ashish0kumar/dotfiles/blob/master/README.md) to help me with the overall design and distribution of the README 🙏
 - [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
 - [LierB](https://github.com/LierB/fastfetch) for the fastfetch config presets 📋
 - [Dreams of Autonomy](https://youtu.be/9U8LCjuQzdc?feature=shared) for the zenful ohmyposh theme 🧘
