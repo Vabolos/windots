@@ -233,7 +233,7 @@ You can always change these in your Glaze config.
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
 > [!Note]
-> If you want to check the wallpapers, they are available [right here](https://github.com/vabolos/windots/tree/main/walls#readme).
+> If you want to check the wallpapers, they are available [right here](https://github.com/Vabolos/windots?tab=readme-ov-file#gallery).
 
 | **TUI File Manager, ls replacement and System Fetch** |
 | ----------------------------------------------------- |
