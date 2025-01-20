@@ -43,7 +43,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 - ⚙️ Minimalist fastfetch config
 - 🚀 Flow launcher config
 - 🦅 Themeable Start menu, Taskbar and Notification center
-- 💫 Beautiful [Wallpapers](https://github.com/vabolos/.dotfiles/tree/main/walls#readme)
+- 💫 Beautiful [Wallpapers](https://github.com/Vabolos/windots/tree/main/wallpapers#readme)
 - 🐈 [Catppuccin](https://github.com/catppuccin) everywhere
 
 <hr/>
