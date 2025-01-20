@@ -27,7 +27,6 @@ mantle: &mantle "#181825"
 crust: &crust "#11111b"
 
 general:
-
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: false
 
@@ -86,6 +85,17 @@ bar:
   # border_radius: "10px"
 
   components_left:
+    # - type: "text"
+    #   text: " "
+    #   foreground: *blue
+    #   margin: "0 10px 0 15px"
+
+    # - type: "tiling direction"
+    #   label_horizontal: "⮂"
+    #   label_vertical: "⮁"
+    #   background: "transparent"
+    #   margin: "0 5px"
+    #   foreground: *text
 
     - type: "workspaces"
       focused_workspace_background: "transparent"
@@ -94,13 +104,6 @@ bar:
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
       margin: "0 10px"
-
-    - type: "tiling direction"
-      label_horizontal: "⮂"
-      label_vertical: "⮁"
-      background: "transparent"
-      margin: "0 10px"
-      foreground: *text
 
     - type: "music"
       label_not_playing: ""
@@ -111,7 +114,6 @@ bar:
       margin: "0 0 0 10px"
 
   components_center:
-
     # - type: "window title"
 
     - type: "text"
@@ -171,7 +173,7 @@ bar:
     #   text: "󰈹 "
     #   left_click_command: exec firefox
     #   margin: "0 8px"
-    
+
     # - type: "text"
     #   text: " "
     #   left_click_command: exec wt
@@ -183,7 +185,6 @@ bar:
     #   margin: "0 8px"
 
   components_right:
-
     # - type: "binding mode"
     #   background: "#ffffff33"
     #   margin: "0 5px 0 5px"
@@ -448,7 +449,6 @@ keybindings:
   - command: "move workspace down"
     binding: "Alt+S"
 
-
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ["move to workspace 1", "focus workspace 1"]
     binding: "Alt+Shift+1"
@@ -468,8 +468,6 @@ keybindings:
     binding: "Alt+Shift+8"
   - commands: ["move to workspace 9", "focus workspace 9"]
     bindings: ["Alt+Shift+9"]
-    
-
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
