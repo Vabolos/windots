@@ -72,41 +72,42 @@ Here is all the information about my setup:
 
 #### 🖥️ CLI/TUI Apps
 
-| 📚 Entry                 | ✨ App                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📚 Entry                 | ✨ App                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Shell**                | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/vabolos/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
-| **Terminal Emulator**    | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/Vabolos/windots/blob/main/.config/Terminal/settings.json)                                                                                                                                                                                                        |
-| **Terminal Multiplexer** | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/tmux/tmux.conf)                                                                                                                                                                                                                               |
-| **Shell Prompt**         | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/ohmyposh/zen.toml)                                                                                                                                                                                                                                     |
-| **Text Editor**          | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/vabolos/dotfiles/tree/main/.config/nvim)                                                                                                                                                                                                                                                 |
-| **CD Replacement**       | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide)                                                                                                                                                                                                                                                                                                      |
-| **LS Replacement**       | [eza](https://github.com/eza-community/eza)                                                                                                                                                                                                                                                                                                             |
-| **Cat Replacement**      | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/vabolos/dotfiles/tree/main/.config/bat)                                                                                                                                                                                                                                            |
-| **File Manager**         | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/vabolos/dotfiles/tree/main/.config/yazi)                                                                                                                                                                                                                                           |
-| **Fuzzy File Finder**    | 💖 [fzf](https://github.com/junegunn/fzf)                                                                                                                                                                                                                                                                                                               |
-| **Git TUI**              | [lazygit](https://github.com/jesseduffield/lazygit)                                                                                                                                                                                                                                                                                                     |
-| **System Monitor**       | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/btop/btop.conf)                                                                                                                                                                                                                          |
-| **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/fastfetch/config.jsonc)                                                                                                                                                                                                       |
+| **Terminal Emulator**    | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/Vabolos/windots/blob/main/.config/Terminal/settings.json)                                                                                                                                                                                                 |
+| **Terminal Multiplexer** | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/tmux/tmux.conf)                                                                                                                                                                                                                          |
+| **Shell Prompt**         | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/ohmyposh/zen.toml)                                                                                                                                                                                                                              |
+| **Text Editor**          | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/vabolos/dotfiles/tree/main/.config/nvim)                                                                                                                                                                                                                                            |
+| **CD Replacement**       | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide)                                                                                                                                                                                                                                                                                          |
+| **LS Replacement**       | [eza](https://github.com/eza-community/eza)                                                                                                                                                                                                                                                                                                 |
+| **Cat Replacement**      | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/vabolos/dotfiles/tree/main/.config/bat)                                                                                                                                                                                                                                       |
+| **File Manager**         | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/vabolos/dotfiles/tree/main/.config/yazi)                                                                                                                                                                                                                                      |
+| **Fuzzy File Finder**    | 💖 [fzf](https://github.com/junegunn/fzf)                                                                                                                                                                                                                                                                                                   |
+| **Git TUI**              | [lazygit](https://github.com/jesseduffield/lazygit)                                                                                                                                                                                                                                                                                         |
+| **System Monitor**       | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/btop/btop.conf)                                                                                                                                                                                                                     |
+| **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/fastfetch/config.jsonc)                                                                                                                                                                                                  |
+| **Git Fetch**            | [onefetch](https://github.com/o2sh/onefetch)                                                                                                                                                                                                                                                                                                |
 
 #### 🖱️ GUI Apps
 
-| 📚 Entry                 | ✨ App                                                                                                                                    |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/vscode/settings.json)                |
+| 📚 Entry                 | ✨ App                                                                                                                                        |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/vscode/settings.json)                      |
 | **App Launcher**         | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/Vabolos/windots/blob/main/.config/FlowLauncher/Settings/Settings.json) |
-| **Music Player**         | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/))                                                |
-| **Web Browser**          | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) 🏡 [startpage](https://github.com/vabolos/catppuccin-startpage)                      |
-| **Note Taking App**      | 💖 [Obsidian](https://obsidian.md/)                                                                                                       |
-| **File Manager**         | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)                                                               |
-| **Office Apps**          | [Office 365](https://www.microsoft.com/en-us/microsoft-365/download-office)                                                               |
+| **Music Player**         | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/))                                                    |
+| **Web Browser**          | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) 🏡 [startpage](https://github.com/vabolos/catppuccin-startpage)                          |
+| **Note Taking App**      | 💖 [Obsidian](https://obsidian.md/)                                                                                                           |
+| **File Manager**         | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)                                                                   |
+| **Office Apps**          | [Office 365](https://www.microsoft.com/en-us/microsoft-365/download-office)                                                                   |
 
 #### 🔍 Other
 
-| 📚 Entry             | ✨ App                                                        |
-| -------------------- | ------------------------------------------------------------- |
-| **Colorscheme**      | 💖 [Catppuccin Mocha](catppuccin.com)                         |
+| 📚 Entry             | ✨ App                                                   |
+| -------------------- | -------------------------------------------------------- |
+| **Colorscheme**      | 💖 [Catppuccin Mocha](catppuccin.com)                    |
 | **Font**             | [FiraCode Nerd Font](https://www.jetbrains.com/lp/mono/) |
-| **Dotfiles Manager** | 💖 [GNU Stow](https://www.gnu.org/software/stow/)             |
+| **Dotfiles Manager** | 💖 [GNU Stow](https://www.gnu.org/software/stow/)        |
 
 <h2 id="setup">🔧 Setup</h2>
 
@@ -193,6 +194,19 @@ winget install fastfetch
   - `C:\Users\<Username>\.config\fastfetch\config.conf`
 
 - Run fastfetch.
+
+### 🌿 Onefetch
+
+> [!WARNING]
+> This command only works in Git repositories which are downloaded/stored on a local device, once in it you can manually run the command. <br/> The command is automatically executed in the [pwsh profile config](https://github.com/Vabolos/windots/blob/main/.config/Terminal/settings.json) when entering a local Git repository.
+
+- Install [onefetch](https://github.com/o2sh/onefetch) using winget:
+
+```bash
+winget install onefetch
+```
+
+- Run onefetch
 
 <hr/>
 
