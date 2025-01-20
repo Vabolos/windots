@@ -269,10 +269,6 @@ You can always change these in your Glaze config.
 | ----------------- |
 | ![](assets/3.png) |
 
-| **Old Browser Homepage** |
-| ------------------------ |
-| ![](assets/11.png)       |
-
 <hr>
 
 ## 📜 License
