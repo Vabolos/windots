@@ -247,7 +247,7 @@ You can always change these in your Glaze config.
 | ------------------------------------------------------------------------------------------ |
 | ![](assets/6.png)                                                                          |
 
-| **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
+| **Browser [startpage](https://github.com/Vabolos/catppuccin-startpage)** |
 | ------------------------------------------------------------------ |
 | ![](assets/17.png)                                                 |
 
