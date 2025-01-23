@@ -113,9 +113,6 @@ Here is all the information about my setup:
 
 ### 🪟 GlazeWM
 
-> [!WARNING]
-> This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
-
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
 - Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
   - `C:\Users\<Username>\.glaze-wm`
