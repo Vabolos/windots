@@ -105,7 +105,7 @@ Here is all the information about my setup:
 
 | 📚 Entry             | ✨ App                                                   |
 | -------------------- | -------------------------------------------------------- |
-| **Colorscheme**      | 💖 [Catppuccin Mocha](catppuccin.com)                    |
+| **Colorscheme**      | 💖 [Catppuccin Mocha](https://catppuccin.com/)                    |
 | **Font**             | [FiraCode Nerd Font](https://www.jetbrains.com/lp/mono/) |
 | **Dotfiles Manager** | 💖 [GNU Stow](https://www.gnu.org/software/stow/)        |
 
