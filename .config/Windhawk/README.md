@@ -13,6 +13,12 @@ This repository contains two customization mods for Windows 11:
 3. **Notification Panel Styler**
    - Modify and enhance the look and functionality of the Windows 11 Notificantion Panel.
 
+4. **Taskbar Clock Customization**
+   - Customize the appearance and behavior of the taskbar clock
+
+5. **Taskbar Labels**
+   - Modify text labels and combining for running programs on taskbar.
+
 ## What is WinHawk?
 
 [WinHawk](https://stefansundin.github.io/winhawk/) is a lightweight tool that allows you to apply real-time mods to Windows.
