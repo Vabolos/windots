@@ -105,13 +105,16 @@ Here is all the information about my setup:
 
 | 📚 Entry             | ✨ App                                                   |
 | -------------------- | -------------------------------------------------------- |
-| **Colorscheme**      | 💖 [Catppuccin Mocha](https://catppuccin.com/)                    |
+| **Colorscheme**      | 💖 [Catppuccin Mocha](https://catppuccin.com/)           |
 | **Font**             | [FiraCode Nerd Font](https://www.jetbrains.com/lp/mono/) |
 | **Dotfiles Manager** | 💖 [GNU Stow](https://www.gnu.org/software/stow/)        |
 
 <h2 id="setup">🔧 Setup</h2>
 
 ### 🪟 GlazeWM
+
+> [!NOTE]
+> The zebar configuration + installation can be found in [this github repo](https://github.com/adriankarlen/neobrutal-zebar).
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
 - Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
@@ -245,8 +248,8 @@ You can always change these in your Glaze config.
 | ![](assets/6.png)                                                                          |
 
 | **Browser [startpage](https://github.com/Vabolos/catppuccin-startpage)** |
-| ------------------------------------------------------------------ |
-| ![](assets/17.png)                                                 |
+| ------------------------------------------------------------------------ |
+| ![](assets/17.png)                                                       |
 
 | **Telescope find_files and pipes script** |
 | ----------------------------------------- |
