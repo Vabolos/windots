@@ -40,3 +40,6 @@ This repository contains two customization mods for Windows 11:
 3. Install them (+ accept the pop-ups).
 4. Click on details > advanced.
 5. Paste + save the code in the "mod" field.
+
+> [!NOTE]
+> The config for the old taskbar has been moved [here](https://github.com/Vabolos/windots/blob/main/_old/Windhawk.old/taskbar.json), and I am now using the rosepine theme.
