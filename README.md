@@ -155,7 +155,7 @@ Here is all the information about my setup:
 
 ### 🐚 PowerShell
 
-- Copy `windots/.config/Terminal/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
+- Copy `windots/.config/pwsh/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
   - `C:\Users\<Username>\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1`
 - Restart PowerShell to apply the changes.
 
