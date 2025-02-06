@@ -134,7 +134,7 @@ Here is all the information about my setup:
 ### 🦅 Windhawk
 
 - Install [Windhawk](https://windhawk.net/).
-- Copy the Windhawk configuration files from `windots/.config/Windows/Catppuccin-or-Everforest/Windhawk`
+- Copy the Windhawk configuration files from `windots/.config/Windhawk/`
 - Apply the tweaks from the Windhawk UI.
 
 ### 🚀 Flow Launcher
