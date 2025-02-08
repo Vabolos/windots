@@ -149,6 +149,7 @@ Here is all the information about my setup:
 
 - Copy `windots/.config/FlowLauncher/Themes/Violet.xaml`to the Flow Launcher Themes directory:
   - `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Themes\Violet.xaml`
+- Restart Flow Launcher
 
 ## \>\_ Terminal & Shell Setup
 
