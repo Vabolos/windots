@@ -143,9 +143,12 @@ Here is all the information about my setup:
 ### 🚀 Flow Launcher
 
 - Install [Flow Launcher](https://www.flowlauncher.com/)
-- Copy `windots/.config/flowlauncher/Settings.json` to the Flow Launcher config directory:
+- Copy `windots/.config/flowlauncher/Settings/Settings.json` to the Flow Launcher config directory:
   - `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
+
+- Copy `windots/.config/FlowLauncher/Themes/Violet.xaml`to the Flow Launcher Themes directory:
+  - `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Themes\Violet.xaml`
 
 ## \>\_ Terminal & Shell Setup
 
