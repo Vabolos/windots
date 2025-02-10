@@ -95,5 +95,9 @@
    "controlStyles[10].styles[3]":"BorderBrush:=<SolidColorBrush Color=\"#45475a\" Opacity=\"0.5\" />",
    "controlStyles[11].styles[3]":"BorderBrush:=<SolidColorBrush Color=\"#45475a\" Opacity=\"0.5\" />",
    "controlStyles[15].styles[4]":"BorderBrush:=<SolidColorBrush Color=\"#45475a\" Opacity=\"0.5\" />",
-   "controlStyles[17].styles[3]":"BorderBrush:=<SolidColorBrush Color=\"#45475a\" Opacity=\"0.5\" />"
+   "controlStyles[17].styles[3]":"BorderBrush:=<SolidColorBrush Color=\"#45475a\" Opacity=\"0.5\" />",
+   "controlStyles[0].styles[1]":"VerticalAlignment=Stretch",
+   "controlStyles[1].styles[1]":"Margin=0,10,0,50",
+   "controlStyles[17].styles[4]":"Margin=0,0,0,350",
+   "controlStyles[0].styles[2]":"Margin=0,50,0,0"
 }
