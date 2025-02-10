@@ -13,11 +13,11 @@ This repository contains two customization mods for Windows 11:
 3. **Notification Panel Styler**
    - Modify and enhance the look and functionality of the Windows 11 Notificantion Panel.
 
-4. **Taskbar Clock Customization**
+<!-- 4. **Taskbar Clock Customization**
    - Customize the appearance and behavior of the taskbar clock
 
 5. **Taskbar Labels**
-   - Modify text labels and combining for running programs on taskbar.
+   - Modify text labels and combining for running programs on taskbar. -->
 
 ## What is WinHawk?
 
@@ -42,4 +42,4 @@ This repository contains two customization mods for Windows 11:
 5. Paste + save the code in the "mod" field.
 
 > [!NOTE]
-> The config for the old taskbar has been moved [here](https://github.com/Vabolos/windots/blob/main/_old/Windhawk.old/taskbar.json), and I am now using the rosepine theme.
+> Some of the config files used for the taskbar have been moved [here](https://github.com/Vabolos/windots/blob/main/_old/Windhawk.old), these are for the clock and labels.
