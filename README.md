@@ -31,7 +31,7 @@
 Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
 
 > [!NOTE]
-> All configurations related to my Linux setup (WSL2) are maintained in this repository: [**dotfiles**](https://github.com/vabolos/dotfiles)
+> All configs related to my **Linux setup (WSL2)** are maintained in this repository: [**dotfiles**](https://github.com/vabolos/dotfiles)
 
 ## ✨ Features
 
@@ -68,8 +68,8 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 
 Here is all the information about my setup:
 
-> [!Note]
-> Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
+> [!NOTE]
+> Some of this apps have the **config files** included in the repo, which are marked with ⚙️. Also, my **favorite programs and tools** are marked with 💖.
 
 #### 🪟 System
 
@@ -236,7 +236,7 @@ winget install onefetch
 
 ## ⌨️ GlazeWM keybindings
 
-You can always change these in your Glaze config.
+You can always change these in your `glazewm/config.yaml`
 
 | Keys                                                            | Action                                              |
 | --------------------------------------------------------------- | --------------------------------------------------- |
@@ -256,8 +256,8 @@ You can always change these in your Glaze config.
 
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
-> [!Note]
-> Wallpapers are available [here](https://github.com/Vabolos/windots?tab=readme-ov-file#gallery) if you’d like to check them out.
+> [!NOTE]
+> You can check out the **wallpapers** [**here**](https://github.com/Vabolos/windots?tab=readme-ov-file#gallery) if you’d like to check them out.
 
 | **Browser on [r/unixporn](https://reddit.com/r/unixporn) and cmatrix, cbonsai scripts** |
 |-------------------------------------------------------|
