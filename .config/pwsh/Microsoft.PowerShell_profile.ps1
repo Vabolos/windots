@@ -1,4 +1,4 @@
-# Existing content
+# Error Handling
 $ErrorActionPreference = 'SilentlyContinue'
 
 # Aliases
@@ -6,62 +6,77 @@ Set-Alias tt tree
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias vim nvim
+Set-Alias refresh ". $PROFILE"
 
 # Git Shortcuts
 function gs { git status }
-
 function ga { git add . }
+function gp { git push }
+function gpl { git pull }
+function gl { git log --oneline --graph --decorate --all }
+function gd { git diff }
 
 function gc { param($m) git commit -m "$m" }
 
-function gp { git push }
-
-# function g { __zoxide_z github }
-
-function gcl { git clone "$args" }
+function gcl {
+    param([string]$repoUrl)
+    git clone $repoUrl
+}
 
 function gcom {
+    param([string]$message)
     git add .
-    git commit -m "$args"
+    git commit -m "$message"
 }
+
 function lazyg {
+    param([string]$message)
     git add .
-    git commit -m "$args"
+    git commit -m "$message"
     git push
 }
 
-# Auto-start
-## choose between winfetch and fastfetch (uncomment one!)
-#cls;winfetch
-cls;fastfetch
+# Function: Create directory and cd into it
+function mkcd {
+    param([string]$dir)
+    if (-not $dir) { Write-Host "Usage: mkcd <directory-name>"; return }
+    mkdir $dir -Force | Out-Null
+    cd $dir
+}
 
-# Prompt
-#oh-my-posh init pwsh --config 'C:\Users\lucfr\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json' | Invoke-Expression
+# Auto-start Fetch Utility (Detects installed version)
+cls
+if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
+    fastfetch
+} elseif (Get-Command winfetch -ErrorAction SilentlyContinue) {
+    winfetch
+}
+
+# Oh My Posh Prompt
 oh-my-posh init pwsh --config 'C:\Users\lucfr\AppData\Local\Programs\oh-my-posh\themes\zen.toml' | Invoke-Expression
 
-# Functions
+# Function: Find the path of a command
 function whereis ($command) {
     Get-Command -Name $command -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
 
-# Modules
 # Enhanced PSReadLine Configuration
 $PSReadLineOptions = @{
     EditMode = 'Windows'
     HistoryNoDuplicates = $true
     HistorySearchCursorMovesToEnd = $true
     Colors = @{
-        Command = '#87CEEB'  # SkyBlue (pastel)
-        Parameter = '#98FB98'  # PaleGreen (pastel)
-        Operator = '#FFB6C1'  # LightPink (pastel)
-        Variable = '#DDA0DD'  # Plum (pastel)
-        String = '#FFDAB9'  # PeachPuff (pastel)
-        Number = '#B0E0E6'  # PowderBlue (pastel)
-        Type = '#F0E68C'  # Khaki (pastel)
-        Comment = '#D3D3D3'  # LightGray (pastel)
-        Keyword = '#8367c7'  # Violet (pastel)
-        Error = '#FF6347'  # Tomato (keeping it close to red for visibility)
+        Command = '#87CEEB'  
+        Parameter = '#98FB98'  
+        Operator = '#FFB6C1'  
+        Variable = '#DDA0DD'  
+        String = '#FFDAB9'  
+        Number = '#B0E0E6'  
+        Type = '#F0E68C'  
+        Comment = '#D3D3D3'  
+        Keyword = '#8367c7'  
+        Error = '#FF6347'  
     }
     PredictionSource = 'History'
     PredictionViewStyle = 'ListView'
@@ -69,48 +84,33 @@ $PSReadLineOptions = @{
 }
 Set-PSReadLineOption @PSReadLineOptions
 
+# Load Modules
 Import-Module Terminal-Icons
 Set-PSReadLineKeyHandler -Key Tab -Function Complete
 Set-PSReadLineOption -PredictionViewStyle ListView
 
-============================================================
 # Automatically run onefetch in GitHub directories
-
-# Track if the last directory was a Git repo
 $lastDirIsRepo = $false
-
-# Override Set-Location (cd) function
 function Set-Location {
     param (
         [string]$path
     )
 
-    # Normalize path and handle cases like "cd .." or "cd.."
-    if ($path -match "^\.\.($|\\)") {
-        # Clear the terminal when "cd .." is executed
-        cls
-    }
+    # Normalize and handle "cd .."
+    if (-not $path) { $path = '~' }
+    if ($path -match "^\.\.($|\\)") { cls }
 
-    # Call the original Set-Location (cd) function
+    # Change directory
     Microsoft.PowerShell.Management\Set-Location $path
 
-    # Get the current directory path after changing
+    # Check for .git directory
     $currentDir = Get-Location
+    $isRepo = Test-Path "$currentDir\.git"
 
-    # Check if the current directory contains a .git folder
-    if (Test-Path "$currentDir\.git") {
-        # If inside a repo, run onefetch
-        if (-not $lastDirIsRepo) {
-            cls
-            onefetch
-        }
-        $lastDirIsRepo = $true
+    if ($isRepo -and -not $lastDirIsRepo) {
+        cls
+        onefetch
     }
-    else {
-        # If leaving a repo or not in a repo, clear the screen
-        if ($lastDirIsRepo) {
-            cls
-        }
-        $lastDirIsRepo = $false
-    }
+
+    $lastDirIsRepo = $isRepo
 }
