@@ -35,12 +35,13 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 
 ## ✨ Features
 
-- 🪟 Beautiful Glazewm config
+- 🪟 Glazewm config
+- ❄️ Beautiful YASB config
 - 🌸 Minimal VSCode setup
-- \>\_ Sleek windows terminal config
-- 🐚 Simple Powershell config
+- \>_ Sleek windows terminal config
+- 🐚 Powershell config
 - 🎨 Ohmyposh theme
-- ⚙️ Minimalist fastfetch config
+- ⚙️ Minimal fastfetch config
 - 🚀 Flow launcher config
 - 🦅 Themeable Start menu, Taskbar and Notification center
 - 💫 Beautiful [Wallpapers](https://github.com/Vabolos/windots/tree/main/wallpapers#readme)
@@ -51,15 +52,15 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 ## 🌸 Core System Info
 
 - **OS:** [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) 🪟 + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) 🐧
-- **WM:** [glazewm](https://github.com/glzr-io/glazewm) ✨
+- **WM:** [GlazeWM](https://github.com/glzr-io/glazewm) ✨
 - **Shell:** [powershell](https://learn.microsoft.com/en-us/powershell/) / [zsh](https://zsh.sourceforge.io/) 🐚
-- **Terminal Emulator:** [windows terminal](https://github.com/microsoft/terminal) >\_
-- **Panel:** [glaze bar](https://github.com/glzr-io/glazewm) ✨
-- **Text Editor:** [vscode](https://code.visualstudio.com/) and [neovim](https://neovim.io/) ⌨️
-- **App Launcher:** [flow launcher](https://www.flowlauncher.com/) 🚀
-- **File Manager:** [file explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
-- **Browser:** [firefox](https://www.mozilla.org/en-US/firefox/) 🌐
-- **Colorscheme:** [catppuccin macchiato](https://catppuccin.com/) 🐈🍵
+- **Terminal Emulator:** [Windows terminal](https://github.com/microsoft/terminal) >_
+- **Panel:** [YASB](https://github.com/amnweb/yasb) ❄️
+- **Text Editor:** [VSCode](https://code.visualstudio.com/) and [neovim](https://neovim.io/) ⌨️
+- **App Launcher:** [Flow launcher](https://www.flowlauncher.com/) 🚀
+- **File Manager:** [File explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
+- **Browser:** [Zen-Browser](https://zen-browser.app) 🌐
+- **Colorscheme:** [Catppuccin](https://catppuccin.com/) 🎨
 
 <hr/>
 
@@ -69,6 +70,16 @@ Here is all the information about my setup:
 
 > [!Note]
 > Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
+
+#### 🪟 System
+
+| 📚 Entry                           	 | ✨ App                  |
+|----------------------------------------|--------------------------|
+| **OS** 				 | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) |
+| **Window Manager** 			 | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/vabolos/windots/blob/master/.config/glazewm/config.yaml) |
+| **Bar** 				 | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/vabolos/windots/blob/master/.config/yasb/) |
+| **Application Launcher** 		 | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/FlowLauncher/Settings.json) |
+| **Mods** 				 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/winddhawk/) |
 
 #### 🖥️ CLI/TUI Apps
 
@@ -88,18 +99,18 @@ Here is all the information about my setup:
 | **System Monitor**       | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/btop/btop.conf)                                                                                                                                                                                                                     |
 | **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/vabolos/dotfiles/blob/main/.config/fastfetch/config.jsonc)                                                                                                                                                                                                  |
 | **Git Fetch**            | [onefetch](https://github.com/o2sh/onefetch)                                                                                                                                                                                                                                                                                                |
+| **Audio Visualizer** 			 | [cava](https://github.com/karlstav/cava) |
 
 #### 🖱️ GUI Apps
 
-| 📚 Entry                 | ✨ App                                                                                                                                        |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/vscode/settings.json)                      |
-| **App Launcher**         | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/Vabolos/windots/blob/main/.config/FlowLauncher/Settings/Settings.json) |
-| **Music Player**         | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/))                                                    |
-| **Web Browser**          | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) 🏡 [startpage](https://github.com/vabolos/catppuccin-startpage)                          |
-| **Note Taking App**      | 💖 [Obsidian](https://obsidian.md/)                                                                                                           |
-| **File Manager**         | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)                                                                   |
-| **Office Apps**          | [Office 365](https://www.microsoft.com/en-us/microsoft-365/download-office)                                                                   |
+| 📚 Entry                           	 | ✨ App                  |
+|----------------------------------------|--------------------------|
+| **Fallback Text Editor**               | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
+| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
+| **Web Browser**               	 | 💖 [Zen-Browser](https://zen-browser.app) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
+| **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
+| **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
+| **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
 
 #### 🔍 Other
 
@@ -132,33 +143,31 @@ Here is all the information about my setup:
 
 ### 📝 VSCode
 
-- Install the following extensions for improving the UI of VSCode:
+- Enhance your **VSCode UI** with these **extensions**:
+  	- [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) - Customize the VSCode interface
+	- [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) - Add a transparent/glass effect (optional)
 
-  - [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Siris01.catppuccin-theme)
-    - [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
-  - [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) (If you want a transparent/glass effect)
+- `windots/.config/vscode/settings.json` → `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
 
-- Copy `windots/.config/vscode/settings.json` to your VSCode user configuration directory:
-  - On Windows: `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
-  - On WSL2: `~/.vscode-server/data/Machine/settings.json`
-- Restart VSCode to load the updated settings.
-
-### 🦅 Windhawk
-
-- Install [Windhawk](https://windhawk.net/).
-- Copy the Windhawk configuration files from `windots/.config/Windhawk/`
-- Apply the tweaks from the Windhawk UI.
+- **Restart VSCode** to load the updated settings.
 
 ### 🚀 Flow Launcher
 
-- Install [Flow Launcher](https://www.flowlauncher.com/)
-- Copy `windots/.config/flowlauncher/Settings/Settings.json` to the Flow Launcher config directory:
-  - `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+- **Install** [**Flow Launcher**](https://www.flowlauncher.com/)
+
+- `windots/.config/FlowLauncher/Settings/Settings.json` → `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+
 - Restart Flow Launcher
 
-- Copy `windots/.config/FlowLauncher/Themes/Violet.xaml`to the Flow Launcher Themes directory:
-  - `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Themes\Violet.xaml`
-- Restart Flow Launcher
+### 🦅 Windhawk
+
+- **Install** [**Windhawk**](https://windhawk.net/).
+- **Install Relevant Mods** from the [Windhawk Store](https://windhawk.net/explore):
+	- Notification Center Styler
+	- Start Menu Styler
+	- Taskbar Styler
+- **Copy** the Windhawk config files from `windots/.config/windhawk/`
+- **Apply the tweaks** from the Windhawk UI.
 
 ## \>\_ Terminal & Shell Setup
 
@@ -177,13 +186,13 @@ Here is all the information about my setup:
 
 ### 🎨 Oh My Posh
 
-- Install [Oh My Posh](https://ohmyposh.dev/docs/installation/windows) using winget:
+- **Install** [**Oh My Posh**](https://ohmyposh.dev/docs/installation/windows) using winget:
 
 ```bash
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-- Copy `windots/.config/ohmyposh/zen.toml` to your Oh My Posh themes directory:
+- **Copy** `windots/.config/ohmyposh/zen.toml` to your **Oh My Posh themes directory**:
 
   - `C:\Users\<Username>\.config\ohmyposh\zen.toml`
 
@@ -196,17 +205,15 @@ oh-my-posh init pwsh --config 'C:\Users\<Username>\.config\ohmyposh\zen.toml' | 
 
 ### ⚙️ Fastfetch
 
-- Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) using winget:
+- **Install** [**fastfetch**](https://github.com/fastfetch-cli/fastfetch) using **winget**:
 
 ```bash
 winget install fastfetch
 ```
 
-- Copy `windots/.config/System fetch/Fastfetch/config.conf` to your Fastfetch configuration directory:
+- `windots/.config/fastfetch/config.conf` → `C:\Users\<Username>\.config\fastfetch\config.conf`
 
-  - `C:\Users\<Username>\.config\fastfetch\config.conf`
-
-- Run fastfetch.
+- **Run fastfetch**.
 
 ### 🌿 Onefetch
 
@@ -233,12 +240,12 @@ You can always change these in your Glaze config.
 | <kbd>alt</kbd> + <kbd>h \| j \| k \| l</kbd>                    | Focus window left \| top \| bottom \| right                  |
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>h \| j \| k \| l</kbd> | Move focusing window left \| top \| bottom \| right          |
 | <kbd>alt</kbd> + <kbd>q</kbd>                                   | Close focusing window                                        |
-| <kbd>alt</kbd> + <kbd>1 - 9</kbd>                               | Focus workspace {n}                                          |
+| <kbd>alt</kbd> + <kbd>1 - 9</kbd>                               | Focus workspace {n}                                          | 
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>1 - 9</kbd>            | Move focusing window to workspace {n}                        |
-| <kbd>alt</kbd> + <kbd>m</kbd>                                   | Minimize current window                                      |
-| <kbd>alt</kbd> + <kbd>x</kbd>                                   | Maximize current window                                      |
-| <kbd>alt</kbd> + <kbd>v</kbd>                                   | Change direction where the next window open should be placed |
-| <kbd>alt</kbd> + <kbd>f</kbd>                                   | Make focusing window float/tiled                             |
+| <kbd>alt</kbd> + <kbd>m</kbd>                                   | Toggle window minimization                                	 |
+| <kbd>alt</kbd> + <kbd>f</kbd>                                   | Toggle window maximization                             	     |
+| <kbd>alt</kbd> + <kbd>v</kbd>                                   | Change tiling direction    					                         |
+| <kbd>alt</kbd> + <kbd>t</kbd>                                   | Make focusing window float/tiled                             |
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>e</kbd>                | Exit glazewm                                                 |
 
 <hr/>
