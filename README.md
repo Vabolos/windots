@@ -31,7 +31,7 @@
 Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
 
 > [!NOTE]
-> All configurations related to my Linux setup (WSL2) are maintained in this repository --> [**dotfiles**](https://github.com/vabolos/dotfiles)
+> All configurations related to my Linux setup (WSL2) are maintained in this repository: [**dotfiles**](https://github.com/vabolos/dotfiles)
 
 ## ✨ Features
 
@@ -101,7 +101,7 @@ Here is all the information about my setup:
 | **Git Fetch**            | [onefetch](https://github.com/o2sh/onefetch)                                                                                                                                                                                                                                                                                                |
 | **Audio Visualizer**     | [cava](https://github.com/karlstav/cava)                                                                                                                                                                                                                                                                                                    |
 
-#### 🖱️ GUI Apps
+#### 🖥️ CLI/TUI Apps (Configs for these can be found in this repo: [**dotfiles**](https://github.com/ashish0kumar/dotfiles))
 
 | 📚 Entry                 | ✨ App                                                                                                                        |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
