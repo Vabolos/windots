@@ -113,13 +113,22 @@ Here is all the information about my setup:
 
 ### 🪟 GlazeWM
 
-> [!NOTE]
-> The zebar configuration + installation can be found in [this github repo](https://github.com/adriankarlen/neobrutal-zebar).
+> [!NOTE]  
+> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
 
-- Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
-  - `C:\Users\<Username>\.glaze-wm`
-- Restart GlazeWM for the changes to take effect.
+- **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
+
+- `windots/.config/glazewm/config.yaml` → `C:\Users\<Username>\.glzr\glazewm\config.yaml`
+
+- **Restart GlazeWM** for the changes to take effect.
+
+### 📊 YASB (Yet Another Status Bar)
+
+- **Install** [**YASB**](https://github.com/amnweb/yasb/releases/).
+
+- `windots/.config/yasb/` → `C:\Users\<Username>\.config\yasb\`
+
+- **Restart YASB** for the changes to take effect.
 
 ### 📝 VSCode
 
