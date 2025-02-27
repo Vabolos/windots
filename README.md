@@ -257,55 +257,55 @@ You can always change these in your Glaze config.
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
 > [!Note]
-> If you want to check the wallpapers, they are available [right here](https://github.com/Vabolos/windots?tab=readme-ov-file#gallery).
+> Wallpapers are available [here](https://github.com/Vabolos/windots?tab=readme-ov-file#gallery) if you’d like to check them out.
 
-| **TUI File Manager, ls replacement and System Fetch** |
-| ----------------------------------------------------- |
-| ![](assets/5.png)                                     |
+| **Browser on [r/unixporn](https://reddit.com/r/unixporn) and cmatrix, cbonsai scripts** |
+|-------------------------------------------------------|
+| ![](assets/unixporn.png) |
 
 | **GUI Text Editor** |
-| ------------------- |
-| ![](assets/2.png)   |
+|-------------------------------------------------------|
+| ![](assets/vscode.png) |
 
-| **System Fetch, Matrix Script and Browser on [r/unixporn](https://reddit.com/r/unixporn)** |
-| ------------------------------------------------------------------------------------------ |
-| ![](assets/6.png)                                                                          |
+| **Topbar menu and TUI System Monitor** |
+|-------------------------------------------------------|
+| ![](assets/btop.png) |
 
-| **Browser [startpage](https://github.com/Vabolos/catppuccin-startpage)** |
-| ------------------------------------------------------------------------ |
-| ![](assets/17.png)                                                       |
+| **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
+|-------------------------------------------------------|
+| ![](assets/startpage.png) |
 
-| **Telescope find_files and pipes script** |
-| ----------------------------------------- |
-| ![](assets/7.png)                         |
-
-| **TUI System Monitor and cbonsai script** |
-| ----------------------------------------- |
-| ![](assets/9.png)                         |
+| **Text Editor** |
+|-------------------------------------------------------|
+| ![](assets/nvim.png) |
 
 | **Fuzzy finder preview, ls replacement and cd preview** |
-| ------------------------------------------------------- |
-| ![](assets/15.png)                                      |
+|-------------------------------------------------------|
+| ![](assets/cli_replace.png) |
 
 | **TUI File Manager** |
-| -------------------- |
-| ![](assets/16.png)   |
+|-------------------------------------------------------|
+| ![](assets/yazi.png) |
 
 | **Start Menu, Taskbar and Notification Center** |
-| ----------------------------------------------- |
-| ![](assets/18.png)                              |
+|-------------------------------------------------------|
+| ![](assets/windhawk.png) |
 
-| **Git UI Manager and Text Editor File-tree** |
-| -------------------------------------------- |
-| ![](assets/10.png)                           |
+| **Topbar Calendar Widget, tty-clock and App Launcher** |
+|-------------------------------------------------------|
+| ![](assets/cal_clock.png) |
 
-| **Music Player**  |
-| ----------------- |
-| ![](assets/8.png) |
+| **Git UI Manager and Telescope find_files** |
+|-------------------------------------------------------|
+| ![](assets/git_telescope.png) |
 
-| **Text Editor**   |
-| ----------------- |
-| ![](assets/3.png) |
+| **Music Player and CLI Music Visualiser** |
+|-------------------------------------------------------|
+| ![](assets/spotify.png) |
+
+| **Power Menu** |
+|-------------------------------------------------------|
+| ![](assets/power.png) |
 
 <hr>
 
