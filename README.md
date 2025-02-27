@@ -73,13 +73,13 @@ Here is all the information about my setup:
 
 #### 🪟 System
 
-| 📚 Entry                 | ✨ App                                                                                                                               |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **OS**                   | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/)            |
-| **Window Manager**       | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/vabolos/windots/blob/master/.config/glazewm/config.yaml)    |
-| **Bar**                  | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/vabolos/windots/blob/master/.config/yasb/)                         |
-| **Application Launcher** | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/FlowLauncher/Settings.json) |
-| **Mods**                 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/vabolos/windots/blob/main/.config/winddhawk/)                           |
+| 📚 Entry                 | ✨ App                                                                                                                                        |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **OS**                   | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/)                     |
+| **Window Manager**       | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/Vabolos/windots/blob/main/.config/.glaze-wm/config.yaml)             |
+| **Bar**                  | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/vabolos/windots/tree/main/.config/yasb)                                     |
+| **Application Launcher** | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/Vabolos/windots/blob/main/.config/FlowLauncher/Settings/Settings.json) |
+| **Mods**                 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/Vabolos/windots/tree/main/.config/Windhawk)                                      |
 
 #### 🖥️ CLI/TUI Apps
 
@@ -259,51 +259,51 @@ You can always change these in your `glazewm/config.yaml`
 > You can check out the **wallpapers** [**here**](https://github.com/Vabolos/windots?tab=readme-ov-file#gallery) if you’d like to check them out.
 
 | **Browser on [r/unixporn](https://reddit.com/r/unixporn) and cmatrix, cbonsai scripts** |
-|-------------------------------------------------------|
-| ![](assets/unixporn.png) |
+| --------------------------------------------------------------------------------------- |
+| ![](assets/unixporn.png)                                                                |
 
-| **GUI Text Editor** |
-|-------------------------------------------------------|
+| **GUI Text Editor**    |
+| ---------------------- |
 | ![](assets/vscode.png) |
 
 | **Topbar menu and TUI System Monitor** |
-|-------------------------------------------------------|
-| ![](assets/btop.png) |
+| -------------------------------------- |
+| ![](assets/btop.png)                   |
 
-| **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
-|-------------------------------------------------------|
-| ![](assets/startpage.png) |
+| **Browser [startpage](https://github.com/vabolos/startpage)** |
+| ------------------------------------------------------------- |
+| ![](assets/startpage.png)                                     |
 
-| **Text Editor** |
-|-------------------------------------------------------|
+| **Text Editor**      |
+| -------------------- |
 | ![](assets/nvim.png) |
 
 | **Fuzzy finder preview, ls replacement and cd preview** |
-|-------------------------------------------------------|
-| ![](assets/cli_replace.png) |
+| ------------------------------------------------------- |
+| ![](assets/cli_replace.png)                             |
 
 | **TUI File Manager** |
-|-------------------------------------------------------|
+| -------------------- |
 | ![](assets/yazi.png) |
 
 | **Start Menu, Taskbar and Notification Center** |
-|-------------------------------------------------------|
-| ![](assets/windhawk.png) |
+| ----------------------------------------------- |
+| ![](assets/windhawk.png)                        |
 
 | **Topbar Calendar Widget, tty-clock and App Launcher** |
-|-------------------------------------------------------|
-| ![](assets/cal_clock.png) |
+| ------------------------------------------------------ |
+| ![](assets/cal_clock.png)                              |
 
 | **Git UI Manager and Telescope find_files** |
-|-------------------------------------------------------|
-| ![](assets/git_telescope.png) |
+| ------------------------------------------- |
+| ![](assets/git_telescope.png)               |
 
 | **Music Player and CLI Music Visualiser** |
-|-------------------------------------------------------|
-| ![](assets/spotify.png) |
+| ----------------------------------------- |
+| ![](assets/spotify.png)                   |
 
-| **Power Menu** |
-|-------------------------------------------------------|
+| **Power Menu**        |
+| --------------------- |
 | ![](assets/power.png) |
 
 <hr>
