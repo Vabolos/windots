@@ -133,7 +133,7 @@ Here is all the information about my setup:
 
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
 
-- `windots/.config/glazewm/config.yaml` → `C:\Users\<Username>\.glzr\glazewm\config.yaml`
+- `windots/.config/glazewm/config.yaml` → `%USERPROFILE%\.glzr\glazewm\config.yaml`
 
 - **Restart GlazeWM** for the changes to take effect.
 
@@ -141,7 +141,7 @@ Here is all the information about my setup:
 
 - **Install** [**YASB**](https://github.com/amnweb/yasb/releases/).
 
-- `windots/.config/yasb/` → `C:\Users\<Username>\.config\yasb\`
+- `windots/.config/yasb/` → `%USERPROFILE%\.config\yasb\`
 
 - **Restart YASB** for the changes to take effect.
 
@@ -151,7 +151,7 @@ Here is all the information about my setup:
 
   - [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) - Add a transparent/glass effect (optional)
 
-- `windots/.config/vscode/settings.json` → `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
+- `windots/.config/vscode/settings.json` → `%APPDATA%\Code\User\settings.json`
 
 - **Restart VSCode** to load the updated settings.
 
@@ -159,7 +159,7 @@ Here is all the information about my setup:
 
 - **Install** [**Flow Launcher**](https://www.flowlauncher.com/)
 
-- `windots/.config/FlowLauncher/Settings/Settings.json` → `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+- `windots/.config/FlowLauncher/Settings.json` → `%APPDATA%\FlowLauncher\Settings\Settings.json`
 
 - Restart Flow Launcher
 
@@ -178,14 +178,15 @@ Here is all the information about my setup:
 ### 🖥️ Windows Terminal
 
 - Install [Windows Terminal](https://github.com/microsoft/terminal)
-- Copy `windots/.config/Terminal/settings.json` to the terminal configuration directory:
-  - `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+
+- `windots/.config/terminal/settings.json` → `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+
 - Restart Windows Terminal to see the updated configurations.
 
 ### 🐚 PowerShell
 
-- Copy `windots/.config/pwsh/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
-  - `C:\Users\<Username>\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1`
+- `windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1` → `%USERPROFILE%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+
 - Restart PowerShell to apply the changes.
 
 ### 🎨 Oh My Posh
@@ -196,15 +197,13 @@ Here is all the information about my setup:
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-- **Copy** `windots/.config/ohmyposh/zen.toml` to your **Oh My Posh themes directory**:
-
-  - `C:\Users\<Username>\.config\ohmyposh\zen.toml`
+- `windots/.config/ohmyposh/zen.toml` → `%USERPROFILE%\.config\ohmyposh\zen.toml`
 
 - **Optional Step:** Skip this if you applied my PowerShell config.
   - I have already included the command to set the theme in the PowerShell profile, so there's no need to do it manually. The following command is automatically applied when PowerShell starts:
 
 ```bash
-oh-my-posh init pwsh --config 'C:\Users\<Username>\.config\ohmyposh\zen.toml' | Invoke-Expression
+oh-my-posh init pwsh --config "$env:USERPROFILE\.config\ohmyposh\zen.toml" | Invoke-Expression
 ```
 
 ### ⚙️ Fastfetch
@@ -215,7 +214,7 @@ oh-my-posh init pwsh --config 'C:\Users\<Username>\.config\ohmyposh\zen.toml' | 
 winget install fastfetch
 ```
 
-- `windots/.config/fastfetch/config.conf` → `C:\Users\<Username>\.config\fastfetch\config.conf`
+- `windots/.config/fastfetch/config.conf` → `%USERPROFILE%\.config\fastfetch\config.conf`
 
 - **Run fastfetch**.
 
