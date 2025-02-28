@@ -37,9 +37,9 @@ widgets:
       label: "<span>\ue62a</span>"
       menu_list:
       - { title: "User Home", path: "~" }
-      - { title: "Download", path: "C:\\Users\\ashis\\Downloads" }
-      - { title: "Documents", path: "C:\\Users\\ashis\\Documents" }
-      - { title: "Pictures", path: "C:\\Users\\ashis\\Pictures" }
+      - { title: "Download", path: "C:\\Users\\lucfr\\Downloads" }
+      - { title: "Documents", path: "C:\\Users\\lucfr\\Documents" }
+      - { title: "Pictures", path: "C:\\Users\\lucfr\\Pictures" }
       system_menu: true
       power_menu: true
       blur: true
@@ -211,7 +211,7 @@ widgets:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
       label: "<span>\udb80\udee9</span>"
-      image_path: "C:\\Users\\ashis\\windots\\walls"
+      image_path: "C:\\Users\\lucfr\\windots\\wallpapers"
       change_automatically: false
       update_interval: 60
       gallery:
