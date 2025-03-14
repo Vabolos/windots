@@ -208,14 +208,12 @@ oh-my-posh init pwsh --config "$env:USERPROFILE\.config\ohmyposh\zen.toml" | Inv
 
 ### ⚙️ Fastfetch
 
-- [`windots/.config/Fastfetch/config.jsonc`](.config/Fastfetch/config.jsonc) → `%USERPROFILE%\.config\fastfetch\config.conf`
-- [`windots/.config/Fastfetch/windows.txt`](.config/Fastfetch/cat.txt) → `%USERPROFILE%\.config\fastfetch\windows.txt`
-
 ```bash
 winget install fastfetch
 ```
 
-- `windots/.config/fastfetch/config.conf` → `%USERPROFILE%\.config\fastfetch\config.conf`
+- [`windots/.config/Fastfetch/config.jsonc`](.config/Fastfetch/config.jsonc) → `%USERPROFILE%\.config\fastfetch\config.conf`
+- [`windots/.config/Fastfetch/windows.txt`](.config/Fastfetch/cat.txt) → `%USERPROFILE%\.config\fastfetch\windows.txt`
 
 - **Run fastfetch**.
 
