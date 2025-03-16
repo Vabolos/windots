@@ -286,12 +286,18 @@ keybindings:
   - commands: ["shell-exec zen"]
     bindings: ["alt+b"]
 
-  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\VSCode.lnk"]
+  - commands: ["shell-exec C:\\Users\\lucfr\\Desktop\\Visual Studio Code.lnk"]
     bindings: ["alt+c"]
 
-  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\WhatsApp.lnk"]
-    bindings: ["alt+w"]
+  - commands: ["shell-exec C:\\Users\\lucfr\\Desktop\\Zed.lnk"]
+    bindings: ["alt+z"]
 
-  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Obsidian.lnk"]
+  - commands: ["shell-exec C:\\Users\\lucfr\\Desktop\\Obsidian.lnk"]
     bindings: ["alt+n"]
+
+  - commands: ["shell-exec C:\\Users\\lucfr\\Desktop\\Discord.lnk"]
+    bindings: ["alt+m"]
+
+  - commands: ["shell-exec C:\\Users\\lucfr\\Desktop\\Spotify.lnk"]
+    bindings: ["alt+s"]
   
